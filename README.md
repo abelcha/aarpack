@@ -1,2 +1,3 @@
-# aarpack
-apple archive cli with stream compression (zlib, lzfse, lzma, lz4)
+apple silicon only
+
+![Demo GIF](demo.gif)

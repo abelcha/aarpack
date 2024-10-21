@@ -1,0 +1,46 @@
+{
+    "configurations": [
+        {
+            "type": "lldb",
+            "request": "launch",
+            "sourceLanguages": [
+                "swift"
+            ],
+            "args": [],
+            "cwd": "${workspaceFolder:pak}",
+            "name": "Debug Pak",
+            "program": "${workspaceFolder:pak}/.build/debug/Pak",
+            "preLaunchTask": "swift: Build Debug Pak"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "sourceLanguages": [
+                "swift"
+            ],
+            "args": [],
+            "cwd": "${workspaceFolder:pak}",
+            "name": "Release Pak",
+            "program": "${workspaceFolder:pak}/.build/release/Pak",
+            "preLaunchTask": "swift: Build Release Pak"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:aarpack}",
+            "name": "Debug aarpack",
+            "program": "${workspaceFolder:aarpack}/.build/debug/aarpack",
+            "preLaunchTask": "swift: Build Debug aarpack"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:aarpack}",
+            "name": "Release aarpack",
+            "program": "${workspaceFolder:aarpack}/.build/release/aarpack",
+            "preLaunchTask": "swift: Build Release aarpack"
+        }
+    ]
+}
